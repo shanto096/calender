@@ -33,7 +33,7 @@ fullDateEl.style.color = "green"
 console.log(months[monthInx]);
 
 let days = "";
-for (let i = firstDay; i > 0; i--) {
+for (let i = firstDay; i > -1; i--) {
     days += `<div class="empty"></div>`
 }
 
